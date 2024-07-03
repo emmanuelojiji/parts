@@ -1,0 +1,48 @@
+.Row {
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin-bottom: 15px;
+  padding-left: 3%;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background 0.2s ease-in-out;
+  font-weight: 500;
+
+  &:hover {
+    background: #f1f1f1;
+  }
+}
+
+.selected {
+  border: solid 1px #9ce3d1;
+}
+
+.quantity-pill {
+  background: #9ce3d1;
+  color: #131e1b;
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 500px;
+  min-width: 90px;
+  min-height: 28.5px;
+}
+
+.refresh {
+  animation: refresh 2s infinite;
+}
+
+@keyframes refresh {
+  0% {
+    background: #9ce3d1;
+  }
+
+  50% {
+    background: #c4ffec;
+  }
+
+  100% {
+    background: #9ce3d1;
+  }
+}

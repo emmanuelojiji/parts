@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.row-column {
+  width: calc(100% / 3);
+}
+
+span {
+  display: inline-block;
+}
+
+h1{
+  font-weight: 600;
+}
